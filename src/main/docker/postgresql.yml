@@ -1,0 +1,10 @@
+version: '2'
+services:
+    booking-postgresql:
+        image: postgres:9.6.2
+        environment:
+            - POSTGRES_USER=booking_user
+            - POSTGRES_PASSWORD=
+            - POSTGRES_DB=booking_db
+        ports:
+            - 5432:5432
