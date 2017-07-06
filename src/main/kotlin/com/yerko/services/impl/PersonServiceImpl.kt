@@ -4,8 +4,10 @@ import com.yerko.domain.Person
 import com.yerko.repositories.PersonRepository
 import com.yerko.services.PersonService
 import org.springframework.stereotype.Service
+import javax.transaction.Transactional
 
 @Service
+@Transactional
 class PersonServiceImpl(val personRepository: PersonRepository) : PersonService {
 
     override fun findAll(): List<Person> {
