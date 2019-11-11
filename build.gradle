@@ -46,5 +46,5 @@ dependencies {
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile "info.cukes:cucumber-junit:1.2.5"
-	testCompile "info.cukes:cucumber-java:1.2.5"
+	testCompile "info.cukes:cucumber-java:1.2.6"
 }
